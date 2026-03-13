@@ -1,0 +1,6 @@
+cenario,inicio_projeto,fim_projeto,prazo_dias_corridos,observacao
+Base (5 squads),09/03/2026,13/11/2026,250,Mapa fixo informado pelo usuário
+Referência (8 squads),09/03/2026,01/09/2026,177,Mapa 8 squads informado pelo usuário
+Melhor combinação (5 squads),09/03/2026,05/10/2026,211,RH=Squad 3; FINANCE=Squad 5; SUPPLY=Squad 2; COMERCIAL+=Squad 5
+Melhor combinação (8 squads),09/03/2026,01/09/2026,177,RH=Squad 5; FINANCE=Squad 6; SUPPLY=Squad 7; COMERCIAL+=Squad 8
+"Só desenvolvedores (5 squads, 10 devs por squad)",09/03/2026,15/07/2026,129,Duração por história = engenheiro_dias + analista_dias
