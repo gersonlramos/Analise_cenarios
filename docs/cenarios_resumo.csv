@@ -4,3 +4,6 @@ Referência (8 squads),09/03/2026,28/08/2026,173,Mapa 8 squads informado pelo us
 Melhor combinação (5 squads),09/03/2026,05/10/2026,211,RH=Squad 3; FINANCE=Squad 5; SUPPLY=Squad 2; COMERCIAL+=Squad 5
 Melhor combinação (8 squads),09/03/2026,28/08/2026,173,RH=Squad 5; FINANCE=Squad 6; SUPPLY=Squad 7; COMERCIAL+=Squad 8
 "Só desenvolvedores (5 squads, 10 devs por squad)",09/03/2026,08/07/2026,122,Duração por história = engenheiro_dias + analista_dias
+"Só desenvolvedores - prazo 30/06 (5 squads, 11 devs por squad)",09/03/2026,30/06/2026,114,Cenário mínimo para terminar até 30/06/2026
+"Só devs +10 (6 squads, 10 devs por squad)",09/03/2026,01/07/2026,115,Squad 6 reforça COMERCIAL (gargalo real identificado)
+"Só devs +20 (7 squads, 10 devs por squad)",09/03/2026,18/06/2026,102,Squad 6 reforça COMERCIAL/SUPPLY CHAIN; Squad 7 reforça RH e FINANCE
