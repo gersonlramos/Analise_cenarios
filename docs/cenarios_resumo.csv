@@ -7,3 +7,11 @@ Melhor combinação (8 squads),09/03/2026,28/08/2026,173,RH=Squad 5; FINANCE=Squ
 "Só desenvolvedores - prazo 30/06 (5 squads, 11 devs por squad)",09/03/2026,30/06/2026,114,Cenário mínimo para terminar até 30/06/2026
 "Só devs +10 (6 squads, 10 devs por squad)",09/03/2026,01/07/2026,115,Squad 6 reforça COMERCIAL (gargalo real identificado)
 "Só devs +20 (7 squads, 10 devs por squad)",09/03/2026,18/06/2026,102,Squad 6 reforça COMERCIAL/SUPPLY CHAIN; Squad 7 reforça RH e FINANCE
+5 squads 12 devs cada (60 devs total),09/03/2026,23/06/2026,107,+2 devs por squad distribuído nas 5 squads
+5 squads 20 devs cada (100 devs total),09/03/2026,21/05/2026,74,+10 devs por squad distribuído nas 5 squads
+Squad 6 antecipada 23/03 em COMERCIAL (5 devs) + 5 squads 01/04,09/03/2026,01/07/2026,115,Squad 6 com 5 devs inicia COMERCIAL em 23/03; squads 2-5 iniciam em 01/04
+8 squads dedicadas - Comercial Squad 6 (20 devs desde 23/03),09/03/2026,10/06/2026,94,"Sq1=BMC/Compras/SS, Sq2=Mopar, Sq3=Cliente, Sq4=SS, Sq5=Supply, Sq6=Comercial(20devs,23/03), Sq7=RH, Sq8=Finance"
+8 squads dedicadas + squads livres reforçam Supply Chain,09/03/2026,27/05/2026,80,"Igual ao anterior, squads 2/3/4/6/7/8 reforçam Supply Chain ao terminarem seus lakes"
+Pior caso - 8 squads (inicio 23/03),23/03/2026,09/06/2026,79,"BMC:1dev, Compras:1, Mopar:1, Cliente:1, SS:1, RH:1(Sq7)+reforco, Finance:1(Sq8)+reforco, SC:1(Sq5), Comercial:2(Sq6)+reforco"
+Esperado - 8 squads (inicio 23/03),23/03/2026,05/06/2026,75,"BMC:1dev, Compras:2, Mopar:2, Cliente:2, SS:4, RH:2(Sq7)+reforco, Finance:4(Sq8)+reforco, SC:4(Sq5), Comercial:5(Sq6)+reforco"
+Otimista - 8 squads (inicio 23/03),23/03/2026,04/06/2026,74,"BMC:1dev, Compras:4, Mopar:4, Cliente:4, SS:4, RH:4(Sq7)+reforco, Finance:4(Sq8)+reforco, SC:4(Sq5), Comercial:8(Sq6)+reforco"
