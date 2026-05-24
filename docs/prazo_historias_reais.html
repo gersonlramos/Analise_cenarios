@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8"/>
+  <title>Prazo Estimado — Historias</title>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; background:#f6f6f8; }
+    .topbar { display:flex; gap:10px; align-items:flex-start; padding:8px 12px; flex-wrap:wrap; }
+    .card { background:#fff; border:1px solid #bdbdbd; border-radius:4px; padding:7px 11px; }
+    #cenario { min-width:300px; font-size:14px; }
+    #info { font-size:13px; line-height:1.7; }
+    #metodologia { font-size:12px; line-height:1.8; color:#333; }
+    #metodologia b { color:#111; }
+    #metodologia .badge {
+      display:inline-block; border-radius:3px; padding:1px 7px;
+      font-size:11px; font-weight:bold; margin-right:4px; vertical-align:middle;
+    }
+    .badge-dev { background:#4C9BE8; color:#fff; }
+    .badge-qa  { background:#1B3A6B; color:#fff; }
+    #chart { width:100%; }
+    #erro { color:#b00020; padding:8px 14px; display:none; }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="card">
+      <label for="cenario"><b>Cenario</b></label><br/>
+      <select id="cenario"></select>
+    </div>
+    <div class="card" id="info"></div>
+    <div class="card" id="metodologia">
+      <b>Metodologia</b><br/>
+      <span class="badge badge-dev">DEV</span>
+      Mediana geral: <b>7,01 dias corridos</b>
+      &nbsp;&nbsp;|&nbsp;&nbsp;
+      <span class="badge badge-qa">QA</span>
+      Mediana geral: <b>3,14 dias corridos</b><br/>
+      Dias corridos = dias de calend&aacute;rio (inclui fins de semana e feriados).<br/>
+      Medianas calculadas sobre <b>262 hist&oacute;rias conclu&iacute;das</b> com ciclo Dev + QA completo.<br/>
+      <b>Cen&aacute;rios A/B:</b> mediana geral para todos &nbsp;|&nbsp;
+      <b>Cen&aacute;rios C/D:</b> mediana hist&oacute;rica por lake (COMERCIAL usa mediana geral).<br/>
+      <b>A/C</b> = mediana completa a partir de hoje &nbsp;|&nbsp;
+      <b>B/D</b> = desconta tempo j&aacute; decorrido no status atual.<br/>
+      Recursos: <b>Dev</b> por squad (greedy) &nbsp;|&nbsp; <b>23 QAs cross-squad</b> (greedy compartilhado).
+    </div>
+  </div>
+  <div id="erro"></div>
+  <div id="chart"></div>
+
+  <script>
+    const dataUrl = "prazo_historias_reais.json";
+    const select  = document.getElementById("cenario");
+    const info    = document.getElementById("info");
+    const erro    = document.getElementById("erro");
+    const chart   = document.getElementById("chart");
+
+    function layout(payload, c) {
+      return {
+        title: { text: payload.titulo + " — " + c.nome,
+                  x: 0.01, xanchor: "left", font: { size: 15, color: "#333" } },
+        xaxis: {
+          type: "date",
+          tickformat: "%d/%m/%Y",
+          showgrid: true,
+          gridwidth: 1,
+          gridcolor: "rgba(180,180,180,0.25)",
+          side: "top",
+          range: [payload.x_range_min, payload.x_range_max],
+        },
+        yaxis: {
+          autorange: "reversed",
+          showgrid: false,
+          tickfont: { size: 10 },
+          automargin: true,
+          categoryorder: "array",
+          categoryarray: c.y_labels,
+        },
+        barmode: "overlay",
+        hovermode: "closest",
+        height: c.height,
+        legend: {
+          title: { text: "Legenda" },
+          x: 0.995, y: 0.995,
+          xanchor: "right", yanchor: "top",
+          bgcolor: "rgba(255,255,255,0.95)",
+          bordercolor: "rgba(0,0,0,0.25)",
+          borderwidth: 1,
+          font: { size: 11 },
+        },
+        margin: { l: 160, r: 20, t: 70, b: 30 },
+        plot_bgcolor: "rgba(245,245,245,1)",
+        paper_bgcolor: "white",
+        font: { family: "Arial, sans-serif", size: 11 },
+      };
+    }
+
+    async function init() {
+      try {
+        const resp = await fetch(dataUrl);
+        if (!resp.ok) throw new Error("HTTP " + resp.status);
+        const payload = await resp.json();
+
+        payload.cenarios.forEach((c, i) => {
+          const opt = document.createElement("option");
+          opt.value = i;
+          opt.textContent = c.nome;
+          select.appendChild(opt);
+        });
+
+        function render(idx) {
+          const c = payload.cenarios[idx];
+          info.innerHTML =
+            "<b>Fim estimado:</b> " + c.fim_projeto +
+            "<br/><b>Historias restantes:</b> " + c.y_labels.length;
+          Plotly.react(chart, c.traces, layout(payload, c),
+                       { responsive: true, displaylogo: false });
+        }
+
+        select.addEventListener("change", () => render(+select.value));
+        render(0);
+      } catch(e) {
+        erro.style.display = "block";
+        erro.innerHTML = "Erro ao carregar. Rode em servidor local.<br>" + e.message;
+      }
+    }
+    init();
+  </script>
+</body>
+</html>

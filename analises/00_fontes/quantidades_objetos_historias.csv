@@ -1,0 +1,401 @@
+arquivo,id_historia,lake,numero,titulo,tabelas,views
+bmc.txt,[BMC - 1],BMC,1,Entidade: BMC - Tamanho M,10,7
+cliente.txt,[CLIENTE - 1],CLIENTE,1,Assunto: Salesforce CDC - Staging (Parte 1) - TAMANHO: G,3,3
+cliente.txt,[CLIENTE - 2],CLIENTE,2,Assunto: CRM e Audiência (Parte 2) - TAMANHO: G,3,7
+cliente.txt,[CLIENTE - 3],CLIENTE,3,Assunto: Campanhas Marketing Cloud (Parte 1) - TAMANHO: G,10,0
+cliente.txt,[CLIENTE - 4],CLIENTE,4,Assunto: Campanhas Marketing Cloud (Parte 2) - TAMANHO: G,10,0
+cliente.txt,[CLIENTE - 5],CLIENTE,5,Assunto: Marketing Cloud - Target & Views (Parte 3) - TAMANHO: G,2,3
+cliente.txt,[CLIENTE - 6],CLIENTE,6,Assunto: Dados Públicos CNPJ - Staging (Parte 1) - TAMANHO: M,4,4
+cliente.txt,[CLIENTE - 7],CLIENTE,7,Assunto: Dados Públicos CNPJ - Target & Views (Parte 2) - TAMANHO: G,5,4
+cliente.txt,[CLIENTE - 8],CLIENTE,8,Assunto: Staging (Parte 1) - TAMANHO: G,10,0
+cliente.txt,[CLIENTE - 9],CLIENTE,9,Assunto: Staging (Parte 2) - TAMANHO: G,7,0
+cliente.txt,[CLIENTE - 10],CLIENTE,10,Assunto: Integrações Externas (Parte 1) - TAMANHO: G,10,0
+cliente.txt,[CLIENTE - 11],CLIENTE,11,Assunto: Integrações Externas (Parte 2) - TAMANHO: P,3,0
+cliente.txt,[CLIENTE - 12],CLIENTE,12,Assunto: Relacionamento Cliente (Parte 1) - TAMANHO: G,2,3
+cliente.txt,[CLIENTE - 13],CLIENTE,13,Assunto: Relacionamento Cliente (Parte 2) - TAMANHO: M,2,3
+cliente.txt,[CLIENTE - 14],CLIENTE,14,Assunto: Relacionamento Cliente (Parte 3) - TAMANHO: M,1,5
+cliente.txt,[CLIENTE - 15],CLIENTE,15,Assunto: Serviços Financeiros (Parte 1) - TAMANHO: M,3,0
+cliente.txt,[CLIENTE - 16],CLIENTE,16,Assunto: Golden Cliente (Parte 1) - TAMANHO: G,10,0
+cliente.txt,[CLIENTE - 17],CLIENTE,17,Assunto: Golden Cliente (Parte 2) - TAMANHO: G,3,7
+cliente.txt,[CLIENTE - 18],CLIENTE,18,Assunto: Golden Cliente (Parte 3) - TAMANHO: G,0,10
+cliente.txt,[CLIENTE - 19],CLIENTE,19,Assunto: Golden Cliente (Parte 4) - TAMANHO: G,,10
+cliente.txt,[CLIENTE - 20],CLIENTE,20,Assunto: Golden Cliente (Parte 5) - TAMANHO: P,1,1
+cliente.txt,[CLIENTE - 21],CLIENTE,21,Assunto: Privacidade LGPD (Parte 1) - TAMANHO: G,1,3
+cliente.txt,[CLIENTE - 22],CLIENTE,22,Assunto: Qualidade e Validação (Parte 1) - TAMANHO: G,2,3
+cliente.txt,[CLIENTE - 23],CLIENTE,23,Assunto: Qualidade e Validação (Parte 2) - TAMANHO: G,1,5
+cliente.txt,[CLIENTE - 24],CLIENTE,24,Assunto: Hub Cart e Hub User (Parte 1) - TAMANHO: G,9,0
+cliente.txt,[CLIENTE - 25],CLIENTE,25,Assunto: Hub Cart e Hub User (Parte 2) - TAMANHO: G,10,0
+cliente.txt,[CLIENTE - 26],CLIENTE,26,Assunto: Hub Cart e Hub User (Parte 3) - TAMANHO: G,10,0
+cliente.txt,[CLIENTE - 27],CLIENTE,27,Assunto: Hub Cart e Hub User (Parte 4) - TAMANHO: G,10,0
+cliente.txt,[CLIENTE - 28],CLIENTE,28,Assunto: Hub Cart e Hub User (Parte 5) - TAMANHO: G,8,1
+cliente.txt,[CLIENTE - 29],CLIENTE,29,Assunto: Visão 360 (Parte 1) - TAMANHO: G,10,0
+cliente.txt,[CLIENTE - 30],CLIENTE,30,Assunto: Visão 360 (Parte 2) - TAMANHO: G,1,9
+cliente.txt,[CLIENTE - 31],CLIENTE,31,Assunto: Visão 360 (Parte 3) - TAMANHO: P,,2
+cliente.txt,[CLIENTE - 32],CLIENTE,32,Assunto: EDI - Envio CCDB (Parte 1) - TAMANHO: G,,
+cliente.txt,[CLIENTE - 33],CLIENTE,33,Assunto: EDI - Envio CCDB (Parte 2) - TAMANHO: G,,
+cliente.txt,[CLIENTE - 34],CLIENTE,34,Assunto: API - Carga Diária e Integrações - TAMANHO: G,,
+cliente.txt,[CLIENTE - 35],CLIENTE,35,Assunto: EDI - Staging Salesforce e Venda Direta (Parte 1) - TAMANHO: P,,
+cliente.txt,[CLIENTE - 36],CLIENTE,36,Assunto: EDI - SSH/FTP On-Premise (Parte 2) - TAMANHO: G,,
+cliente.txt,[CLIENTE - 37],CLIENTE,37,Assunto: EDI - SSH/FTP On-Premise (Parte 3) - TAMANHO: G,,
+cliente.txt,[CLIENTE - 38],CLIENTE,38,Assunto: Marketing Cloud - Target & Views (Parte 4) - TAMANHO: P,2,0
+cliente.txt,[CLIENTE - 39],CLIENTE,39,Assunto: Dados Públicos CNPJ - Staging (Parte 3) - TAMANHO: M,4,0
+cliente.txt,[CLIENTE - 40],CLIENTE,40,Assunto: Dados Públicos CNPJ - Target & Views (Parte 4) - TAMANHO: P,1,0
+cliente.txt,[CLIENTE - 41],CLIENTE,41,Assunto: Relacionamento Cliente (Parte 4) - TAMANHO: M,3,0
+cliente.txt,[CLIENTE - 42],CLIENTE,42,Assunto: Hub Cart e Hub User (Parte 6) - TAMANHO: P,1,0
+comercial.txt,[COMERCIAL - 1],COMERCIAL,1,Entidade: Aprovação Comercial - TAMANHO: P,1,0
+comercial.txt,[COMERCIAL - 2],COMERCIAL,2,Ingestão Base e Auxiliares - TAMANHO: P,3,0
+comercial.txt,[COMERCIAL - 3],COMERCIAL,3,"Processamento ML Parte 1 (Topics, Summary, Translation) - TAMANHO: M",5,0
+comercial.txt,[COMERCIAL - 4],COMERCIAL,4,"Processamento ML Parte 2 (Entity, Ranking) - TAMANHO: M",4,0
+comercial.txt,[COMERCIAL - 5],COMERCIAL,5,Analytics e Consolidação - TAMANHO: M,3,1
+comercial.txt,[COMERCIAL - 6],COMERCIAL,6,Rankings e Históricos - TAMANHO: M,4,2
+comercial.txt,[COMERCIAL - 7],COMERCIAL,7,Cadastros Básicos e Metadados - TAMANHO: G,6,3
+comercial.txt,[COMERCIAL - 8],COMERCIAL,8,Vendas - Cadastros de Perguntas e Metadados - TAMANHO: G,6,1
+comercial.txt,[COMERCIAL - 9],COMERCIAL,9,Vendas - Entrevistas e Questionários - TAMANHO: G,5,4
+comercial.txt,[COMERCIAL - 10],COMERCIAL,10,"Vendas - Cancelamento, Cotas e Qualidade - TAMANHO: G",6,2
+comercial.txt,[COMERCIAL - 11],COMERCIAL,11,Vendas - Analytics Entrevistas e Qualidade - TAMANHO: M,6,0
+comercial.txt,[COMERCIAL - 12],COMERCIAL,12,Vendas - Analytics Banco de Respostas e Índices Base - TAMANHO: G,4,3
+comercial.txt,[COMERCIAL - 13],COMERCIAL,13,Vendas - Analytics Índices Codificação e 2022 - TAMANHO: G,6,3
+comercial.txt,[COMERCIAL - 14],COMERCIAL,14,Pós-Vendas - Cadastros de Perguntas e Metadados - TAMANHO: G,6,1
+comercial.txt,[COMERCIAL - 15],COMERCIAL,15,Pós-Vendas - Entrevistas e Questionários - TAMANHO: G,5,4
+comercial.txt,[COMERCIAL - 16],COMERCIAL,16,"Pós-Vendas - Cancelamento, Cotas e Qualidade - TAMANHO: M",5,1
+comercial.txt,[COMERCIAL - 17],COMERCIAL,17,Pós-Vendas - Analytics Entrevistas e Qualidade - TAMANHO: M,6,0
+comercial.txt,[COMERCIAL - 18],COMERCIAL,18,Pós-Vendas - Analytics Banco de Respostas e Índices Base - TAMANHO: G,4,3
+comercial.txt,[COMERCIAL - 19],COMERCIAL,19,Pós-Vendas - Analytics Índices Codificação e 2022 - TAMANHO: G,6,3
+comercial.txt,[COMERCIAL - 20],COMERCIAL,20,Vendas PSA - Entrevistas e Cancelamentos - TAMANHO: G,8,3
+comercial.txt,[COMERCIAL - 21],COMERCIAL,21,Pós-Vendas PSA - Entrevistas e Cancelamentos - TAMANHO: G,8,3
+comercial.txt,[COMERCIAL - 22],COMERCIAL,22,Ingestão Staging AURA - Entrevistas e Cancelamentos - TAMANHO: M,4,0
+comercial.txt,[COMERCIAL - 23],COMERCIAL,23,"Ingestão Staging IPSOS - Entrevistas, Perguntas e Qualidade - TAMANHO: G",10,0
+comercial.txt,[COMERCIAL - 24],COMERCIAL,24,"Ingestão Staging IPSOS - Cancelamento, Fechamento e Metadata - TAMANHO: M",6,0
+comercial.txt,[COMERCIAL - 25],COMERCIAL,25,"DataMart AURA - Entrevistas, Verbalizações e Cancelamento - TAMANHO: M",6,0
+comercial.txt,[COMERCIAL - 26],COMERCIAL,26,DataMart IPSOS - Perguntas e Entrevistas Estruturadas - TAMANHO: G,8,0
+comercial.txt,[COMERCIAL - 27],COMERCIAL,27,DataMart IPSOS - Verbalização e Qualidade Metadados - TAMANHO: M,6,0
+comercial.txt,[COMERCIAL - 28],COMERCIAL,28,"DataMart IPSOS - Qualidade Final, Fechamento, Cancelamento e Governança - TAMANHO: G",8,0
+comercial.txt,[COMERCIAL - 29],COMERCIAL,29,Analytics Restricted - Entrevistas e Banco Resposta - TAMANHO: G,8,0
+comercial.txt,[COMERCIAL - 30],COMERCIAL,30,Analytics Restricted + Tabelas Abertas Base - TAMANHO: G,8,2
+comercial.txt,[COMERCIAL - 31],COMERCIAL,31,Views Analytics - AURA e Cadastros Proprietário - TAMANHO: G,0,7
+comercial.txt,[COMERCIAL - 32],COMERCIAL,32,Views Analytics - IPSOS Operacional (Pergunta/Resposta/Verbalização) - TAMANHO: G,0,8
+comercial.txt,[COMERCIAL - 33],COMERCIAL,33,"Views Analytics - IPSOS Entrevistas, Long, Qualidade e Banco Resposta Aberto - TAMANHO: G",0,8
+comercial.txt,[COMERCIAL - 34],COMERCIAL,34,"Views Analytics - Fechados, Índices e Codificação - TAMANHO: G",0,8
+comercial.txt,[COMERCIAL - 35],COMERCIAL,35,Dimensões Geográficas - TAMANHO: M,4,0
+comercial.txt,[COMERCIAL - 36],COMERCIAL,36,Dimensões Demográficas - TAMANHO: M,6,0
+comercial.txt,[COMERCIAL - 37],COMERCIAL,37,Dimensões Veiculares - TAMANHO: G,10,0
+comercial.txt,[COMERCIAL - 38],COMERCIAL,38,Concessionárias e Segmentos - TAMANHO: M,5,0
+comercial.txt,[COMERCIAL - 39],COMERCIAL,39,CSI Vendas - Staging Base - TAMANHO: G,10,0
+comercial.txt,[COMERCIAL - 40],COMERCIAL,40,CSI Vendas - DataMart - TAMANHO: G,10,0
+comercial.txt,[COMERCIAL - 41],COMERCIAL,41,CSI Pós-Vendas - Staging Base - TAMANHO: G,10,0
+comercial.txt,[COMERCIAL - 42],COMERCIAL,42,CSI Pós-Vendas - DataMart - TAMANHO: G,10,0
+comercial.txt,[COMERCIAL - 43],COMERCIAL,43,Metadados e Controle - TAMANHO: G,2,8
+comercial.txt,[COMERCIAL - 44],COMERCIAL,44,After Sales - Argentina e Chile - TAMANHO: G,5,2
+comercial.txt,[COMERCIAL - 45],COMERCIAL,45,After Sales - Brasil - TAMANHO: M,2,2
+comercial.txt,[COMERCIAL - 46],COMERCIAL,46,New Vehicle - Brasil - TAMANHO: M,3,3
+comercial.txt,[COMERCIAL - 47],COMERCIAL,47,"New Vehicle - Argentina, Chile e Leapmotor - TAMANHO: M",2,3
+comercial.txt,[COMERCIAL - 45],COMERCIAL,45,Plan de Ahorro (Consórcio) - Completo - TAMANHO: G,5,2
+comercial.txt,[COMERCIAL - 49],COMERCIAL,49,Call Center e Integrações Especiais - TAMANHO: P,1,2
+comercial.txt,[COMERCIAL - 50],COMERCIAL,50,Emplacamentos Pessoa Jurídica (PJ) - TAMANHO: P,2,1
+comercial.txt,[COMERCIAL - 51],COMERCIAL,51,Emplacamentos Pessoa Física (PF) - TAMANHO: P,2,1
+comercial.txt,[COMERCIAL - 52],COMERCIAL,52,Vendas de Veículos Leves (Light Vehicle Sales) - TAMANHO: M,3,1
+comercial.txt,[COMERCIAL - 53],COMERCIAL,53,Powertrain de Veículos Leves (Light Vehicle Powertrain) - TAMANHO: M,3,1
+comercial.txt,[COMERCIAL - 54],COMERCIAL,54,Capacidade de Plantas de Veículos (Vehicle Plant Capacity) - TAMANHO: M,4,1
+comercial.txt,[COMERCIAL - 55],COMERCIAL,55,Ciclos de Planejamento de Veículos (Vehicle Cycle Plans) - TAMANHO: M,4,2
+comercial.txt,[COMERCIAL - 56],COMERCIAL,56,Segmentação de Produtos e Previsões (Product Segmentation) - TAMANHO: M,3,1
+comercial.txt,[COMERCIAL - 57],COMERCIAL,57,Governança e Histórico Consolidado (Governance & CCP Hist) - TAMANHO: P,2,1
+comercial.txt,[COMERCIAL - 58],COMERCIAL,58,Auditoria e Logs - TAMANHO: P,1,1
+comercial.txt,[COMERCIAL - 59],COMERCIAL,59,Catálogo e Características Básicas - TAMANHO: G,4,4
+comercial.txt,[COMERCIAL - 60],COMERCIAL,60,Preços e Mercado - TAMANHO: G,4,5
+comercial.txt,[COMERCIAL - 61],COMERCIAL,61,BR Cadastros de Veículos (Parte 1) - TAMANHO: G,10,0
+comercial.txt,[COMERCIAL - 62],COMERCIAL,62,BR Cadastros de Veículos (Parte 2) e Demográficos - TAMANHO: G,10,0
+comercial.txt,[COMERCIAL - 63],COMERCIAL,63,BR Cadastros de Pesquisa e Concessionárias - TAMANHO: G,10,0
+comercial.txt,[COMERCIAL - 64],COMERCIAL,64,BR Cadastros de Respostas e Metadados - TAMANHO: G,10,0
+comercial.txt,[COMERCIAL - 65],COMERCIAL,65,BR DataMart - Entidades Principais - TAMANHO: G,7,0
+comercial.txt,[COMERCIAL - 66],COMERCIAL,66,BR Analytics Restricted - Tabelas SPSS - TAMANHO: G,7,0
+comercial.txt,[COMERCIAL - 67],COMERCIAL,67,BR Analytics Restricted - Views - TAMANHO: G,0,8
+comercial.txt,[COMERCIAL - 68],COMERCIAL,68,BR Analytics - Tabelas SPSS - TAMANHO: M,6,0
+comercial.txt,[COMERCIAL - 69],COMERCIAL,69,BR Analytics Views - Dimensões de Veículos - TAMANHO: G,0,10
+comercial.txt,[COMERCIAL - 70],COMERCIAL,70,BR Analytics Views - Demográficos e Perfil - TAMANHO: G,0,10
+comercial.txt,[COMERCIAL - 71],COMERCIAL,71,BR Analytics Views - Satisfação e Fidelidade - TAMANHO: G,0,10
+comercial.txt,[COMERCIAL - 612],COMERCIAL,612,BR Analytics Views - Comportamento de Compra - TAMANHO: G,0,10
+comercial.txt,[COMERCIAL - 73],COMERCIAL,73,BR Analytics Views - Questionários e Logs - TAMANHO: G,0,10
+comercial.txt,[COMERCIAL - 74],COMERCIAL,74,AR Staging e DataMart - TAMANHO: G,10,0
+comercial.txt,[COMERCIAL - 75],COMERCIAL,75,AR DataMart (cont) e Analytics Restricted - TAMANHO: G,8,2
+comercial.txt,[COMERCIAL - 76],COMERCIAL,76,AR Analytics Restricted (cont) e Analytics Tabelas - TAMANHO: G,5,5
+comercial.txt,[COMERCIAL - 77],COMERCIAL,77,AR Analytics Views (Parte 1) - TAMANHO: G,0,10
+comercial.txt,[COMERCIAL - 78],COMERCIAL,78,AR Analytics Views (Parte 2) e Cockpit - TAMANHO: G,0,10
+comercial.txt,[COMERCIAL - 79],COMERCIAL,79,QFS Brasil - Metadata e Population (Staging e DataMart) - TAMANHO: M,4,2
+comercial.txt,[COMERCIAL - 80],COMERCIAL,80,QFS Brasil - Respondent (Staging e DataMart) - TAMANHO: M,4,2
+comercial.txt,[COMERCIAL - 81],COMERCIAL,81,QFS Brasil - Respondent (Analytics) - TAMANHO: M,4,0
+comercial.txt,[COMERCIAL - 82],COMERCIAL,82,QFS Brasil - Checkbox (Staging e DataMart) - TAMANHO: M,4,0
+comercial.txt,[COMERCIAL - 83],COMERCIAL,83,QFS Brasil - Checkbox (Analytics) - TAMANHO: M,4,0
+comercial.txt,[COMERCIAL - 84],COMERCIAL,84,QFS Brasil - Verbatim e Canceled (Staging e DataMart) - TAMANHO: G,6,3
+comercial.txt,[COMERCIAL - 85],COMERCIAL,85,QFS Brasil - KPIs e Logs - TAMANHO: M,1,5
+comercial.txt,[COMERCIAL - 86],COMERCIAL,86,QFS Argentina - Metadata e Population (Staging e DataMart) - TAMANHO: M,5,3
+comercial.txt,[COMERCIAL - 87],COMERCIAL,87,QFS Argentina - Respondent (Staging e DataMart) - TAMANHO: M,4,0
+comercial.txt,[COMERCIAL - 88],COMERCIAL,88,QFS Argentina - Respondent (Analytics) - TAMANHO: M,4,0
+comercial.txt,[COMERCIAL - 89],COMERCIAL,89,QFS Argentina - Checkbox (Staging e DataMart) - TAMANHO: M,4,0
+comercial.txt,[COMERCIAL - 90],COMERCIAL,90,QFS Argentina - Checkbox (Analytics) - TAMANHO: M,4,0
+comercial.txt,[COMERCIAL - 91],COMERCIAL,91,QFS Argentina - Verbatim e Canceled - TAMANHO: G,6,3
+comercial.txt,[COMERCIAL - 92],COMERCIAL,92,QFS Global - Analytics Restricted e Population - TAMANHO: M,4,1
+comercial.txt,[COMERCIAL - 93],COMERCIAL,93,QFS Global - Analytics - TAMANHO: M,4,0
+comercial.txt,[COMERCIAL - 94],COMERCIAL,94,QFS Legacy - Dashboards e Atributos - TAMANHO: M,6,0
+comercial.txt,[COMERCIAL - 95],COMERCIAL,95,QFS Legacy - Base - TAMANHO: M,4,0
+comercial.txt,[COMERCIAL - 96],COMERCIAL,96,QFS Legacy - Testes e Logs - TAMANHO: M,4,0
+comercial.txt,[COMERCIAL - 97],COMERCIAL,97,Entidade: Sigma - TAMANHO: P,1,0
+compras.txt,[COMPRAS - 1],COMPRAS,1,Entidade: Datamart Tratativa - Parte 1 (Dimensões Básicas 1-4) - TAMANHO: G,4,6
+compras.txt,[COMPRAS - 2],COMPRAS,2,Entidade: Datamart Tratativa - Parte 2 (Dimensões Básicas 5-8) - TAMANHO: G,4,6
+compras.txt,[COMPRAS - 3],COMPRAS,3,Entidade: Datamart Tratativa - Parte 3 (Fornecedores e Materiais) - TAMANHO: G,3,6
+compras.txt,[COMPRAS - 4],COMPRAS,4,Entidade: Datamart Tratativa - Parte 4 (Documentos de Compra) - TAMANHO: G,4,6
+compras.txt,[COMPRAS - 5],COMPRAS,5,"Entidade: Datamart Tratativa - Parte 5 (Curva de Compra Base - Curva, Histórico e Causais) - TAMANHO: G",4,6
+compras.txt,[COMPRAS - 6],COMPRAS,6,Entidade: Datamart Tratativa - Parte 6 (Curva de Compra Mensal e Despivotada) - TAMANHO: M,0,6
+compras.txt,[COMPRAS - 7],COMPRAS,7,Entidade: Datamart Tratativa - Parte 7 (Variação e Programação) - TAMANHO: G,3,7
+compras.txt,[COMPRAS - 8],COMPRAS,8,Entidade: Datamart Tratativa - Parte 8 (APV - Análise Preço Volume) - TAMANHO: G,5,5
+compras.txt,[COMPRAS - 9],COMPRAS,9,Entidade: RDA (Requisição de Autorização) - TAMANHO: G,1,6
+compras.txt,[COMPRAS - 10],COMPRAS,10,Entidade: Estrutura Veicular - TAMANHO: P,1,1
+compras.txt,[COMPRAS - 11],COMPRAS,11,Entidade: Flow Causais (MySQL) - TAMANHO: M,4,2
+compras.txt,[COMPRAS - 12],COMPRAS,12,Entidade: Integração TM1 (IBM Planning Analytics) - TAMANHO: P,1,1
+compras.txt,[COMPRAS - 13],COMPRAS,13,Entidade: Integração Power BI (Material Indireto) - TAMANHO: G,0,0
+finance.txt,[FINANCE - 1],FINANCE,1,Entidade: NFe Entrada FIAT - TAMANHO: M,4,1
+finance.txt,[FINANCE - 2],FINANCE,2,Entidade: NFe Entrada FPT - TAMANHO: M,4,1
+finance.txt,[FINANCE - 3],FINANCE,3,Entidade: NFe Entrada CMA - TAMANHO: M,4,1
+finance.txt,[FINANCE - 4],FINANCE,4,Entidade: NFe Entrada CMP - TAMANHO: M,4,1
+finance.txt,[FINANCE - 5],FINANCE,5,Entidade: NFe Entrada PCMA - TAMANHO: M,4,1
+finance.txt,[FINANCE - 6],FINANCE,6,Entidade: NFe Entrada Teksid - TAMANHO: M,4,1
+finance.txt,[FINANCE - 7],FINANCE,7,Entidade: CTe Entrada FIAT - TAMANHO: M,4,1
+finance.txt,[FINANCE - 8],FINANCE,8,Entidade: CTe Entrada FPT - TAMANHO: M,4,1
+finance.txt,[FINANCE - 9],FINANCE,9,Entidade: CTe Entrada CMA - TAMANHO: M,4,1
+finance.txt,[FINANCE - 10],FINANCE,10,Entidade: CTe Entrada CMP - TAMANHO: M,4,1
+finance.txt,[FINANCE - 11],FINANCE,11,Entidade: CTe Entrada PCMA - TAMANHO: M,4,1
+finance.txt,[FINANCE - 12],FINANCE,12,Entidade: CTe Entrada Teksid - TAMANHO: M,4,1
+finance.txt,[FINANCE - 13],FINANCE,13,Entidade: NFe/CTe Saída FIAT - TAMANHO: M,4,2
+finance.txt,[FINANCE - 14],FINANCE,14,Entidade: NFe/CTe Saída FPT - TAMANHO: G,4,3
+finance.txt,[FINANCE - 15],FINANCE,15,Entidade: NFe/CTe Saída CMA - TAMANHO: M,4,0
+finance.txt,[FINANCE - 16],FINANCE,16,Entidade: NFe/CTe Saída CMP - TAMANHO: M,4,0
+finance.txt,[FINANCE - 17],FINANCE,17,Entidade: NFe/CTe Saída PCMA - TAMANHO: M,4,0
+finance.txt,[FINANCE - 18],FINANCE,18,Entidade: NFe/CTe Saída Teksid - TAMANHO: M,4,0
+finance.txt,[FINANCE - 19],FINANCE,19,Entidade: Manifesto Destinatário e Elog - TAMANHO: P,2,0
+finance.txt,[FINANCE - 20],FINANCE,20,Entidade: User Parameters TaxOpe - Parte 1 - TAMANHO: M,5,1
+finance.txt,[FINANCE - 21],FINANCE,21,Entidade: User Parameters TaxOpe - Parte 2 (CNPJs e Argentina) - TAMANHO: G,6,1
+finance.txt,[FINANCE - 22],FINANCE,22,Entidade: User Parameters TaxOpe - Parte 3 (Estabelecimento e Fornecedor) - TAMANHO: G,6,4
+finance.txt,[FINANCE - 23],FINANCE,23,Entidade: User Parameters TaxOpe - Parte 4 (De-Para Estabelecimento) - TAMANHO: P,1,0
+finance.txt,[FINANCE - 24],FINANCE,24,Entidade: Recuperação Fiscal - Advertising - TAMANHO: M,3,2
+finance.txt,[FINANCE - 25],FINANCE,25,Entidade: Recuperação Fiscal - Frete - TAMANHO: G,2,4
+finance.txt,[FINANCE - 26],FINANCE,26,Entidade: Recuperação Fiscal - Carga Fria - TAMANHO: G,3,5
+finance.txt,[FINANCE - 27],FINANCE,27,Entidade: Recuperação Fiscal - Garantia e Bonus - TAMANHO: M,3,2
+finance.txt,[FINANCE - 28],FINANCE,28,Entidade: Recuperação Fiscal - Outros Processos Parte 1 - TAMANHO: G,5,4
+finance.txt,[FINANCE - 29],FINANCE,29,Entidade: Recuperação Fiscal - Outros Processos Parte 2 - TAMANHO: M,2,2
+finance.txt,[FINANCE - 30],FINANCE,30,"Entidade: Interfaces SAP ZRFI - Parte 1 (410, 430, 431) - TAMANHO: G",3,3
+finance.txt,[FINANCE - 31],FINANCE,31,"Entidade: Interfaces SAP ZRFI - Parte 2 (440, 441, 442, 300) - TAMANHO: G",4,4
+finance.txt,[FINANCE - 32],FINANCE,32,Entidade: Cloud Functions Storage Trigger - Parte 1 - TAMANHO: G,9,0
+finance.txt,[FINANCE - 33],FINANCE,33,Entidade: Cloud Functions Storage Trigger - Parte 2 - TAMANHO: G,7,0
+finance.txt,[FINANCE - 34],FINANCE,34,Entidade: Cloud Functions Storage Trigger - Parte 3 - TAMANHO: P,1,1
+finance.txt,[FINANCE - 35],FINANCE,35,Entidade: SAP Hana Conciliação - Cloud Functions Storage Trigger - TAMANHO: M,2,2
+finance.txt,[FINANCE - 36],FINANCE,36,Entidade: Análise Alíquota Mensal e Novos Fornecedores - TAMANHO: G,6,4
+finance.txt,[FINANCE - 37],FINANCE,37,Entidade: Padrões Fisco Argentina - Storage Trigger - Parte 1 - TAMANHO: G,10,0
+finance.txt,[FINANCE - 38],FINANCE,38,Entidade: Padrões Fisco Argentina - Storage Trigger - Parte 2 - TAMANHO: G,9,0
+finance.txt,[FINANCE - 39],FINANCE,39,Entidade: Análises Divergências Padrões CABA e Entre Rios - TAMANHO: M,3,3
+finance.txt,[FINANCE - 40],FINANCE,40,Entidade: Análises Divergências Padrões Argentina - Parte 1 - TAMANHO: P,2,2
+finance.txt,[FINANCE - 41],FINANCE,41,Entidade: Análises Divergências Padrões Argentina - Parte 2 - TAMANHO: G,5,5
+finance.txt,[FINANCE - 42],FINANCE,42,Entidade: Análises Divergências Padrões Argentina - Parte 3 - TAMANHO: G,4,4
+finance.txt,[FINANCE - 43],FINANCE,43,Entidade: Classificação Outros Ingressos Argentina - TAMANHO: G,5,3
+finance.txt,[FINANCE - 44],FINANCE,44,Entidade: Análise Malha Fina - TAMANHO: G,4,3
+finance.txt,[FINANCE - 45],FINANCE,45,Entidade: Análise IPI Rota 20/30 e Apurações - TAMANHO: G,4,4
+finance.txt,[FINANCE - 46],FINANCE,46,Entidade: Vinculação NFe/CTe - TAMANHO: G,4,4
+finance.txt,[FINANCE - 47],FINANCE,47,Entidade: Tax NF Head e Customaterial - TAMANHO: M,3,2
+finance.txt,[FINANCE - 48],FINANCE,48,Entidade: TPC Integração AWS/Azure via DataStage - Parte 1 - TAMANHO: G,9,0
+finance.txt,[FINANCE - 49],FINANCE,49,Entidade: TPC Integração AWS/Azure via DataStage - Parte 2 - TAMANHO: G,8,0
+finance.txt,[FINANCE - 50],FINANCE,50,Entidade: TPC Integração AWS/Azure via DataStage - Parte 3 - TAMANHO: G,9,0
+finance.txt,[FINANCE - 51],FINANCE,51,Entidade: TPC Integração AWS/Azure via DataStage - Parte 3 - TAMANHO: G,8,0
+mopar.txt,[MOPAR - 1],MOPAR,1,Assunto: AgendamentoOnline - TAMANHO: G,10,0
+mopar.txt,[MOPAR - 2],MOPAR,2,Assunto: Bonus - TAMANHO: G,6,3
+mopar.txt,[MOPAR - 3],MOPAR,3,Assunto: Claim Master - TAMANHO: M,5,1
+mopar.txt,[MOPAR - 4],MOPAR,4,Assunto: Comissionamento DFS - TAMANHO: G,7,3
+mopar.txt,[MOPAR - 5],MOPAR,5,Assunto: CSPS - Parte 1 - TAMANHO: G,7,0
+mopar.txt,[MOPAR - 6],MOPAR,6,Assunto: CSPS - Parte 2 - TAMANHO: G,2,8
+mopar.txt,[MOPAR - 7],MOPAR,7,Assunto: Mopar Results - TAMANHO: M,2,0
+mopar.txt,[MOPAR - 8],MOPAR,8,Assunto: NDC - Parte 1 - TAMANHO: G,6,3
+mopar.txt,[MOPAR - 9],MOPAR,9,Assunto: NDC - Parte 2 - TAMANHO: G,6,3
+mopar.txt,[MOPAR - 10],MOPAR,10,Assunto: NDC - Parte 3 - TAMANHO: M,4,2
+mopar.txt,[MOPAR - 11],MOPAR,11,Assunto: SCP - Parte 1 - TAMANHO: M,4,2
+mopar.txt,[MOPAR - 12],MOPAR,12,Assunto: SCP - Parte 2 - TAMANHO: M,4,2
+mopar.txt,[MOPAR - 13],MOPAR,13,Assunto: SCP - Parte 3 - TAMANHO: M,4,2
+mopar.txt,[MOPAR - 14],MOPAR,14,Assunto: Sell IN xF e xP - TAMANHO: G,8,2
+mopar.txt,[MOPAR - 15],MOPAR,15,Assunto: SELL OUT xF e xP - TAMANHO: G,0,5
+mopar.txt,[MOPAR - 16],MOPAR,16,Assunto: Veiculo Conectado - TAMANHO: M,2,3
+mopar.txt,[MOPAR - 17],MOPAR,17,Entidade: Ingestão Staging SG Liquidadas e Estornadas - TAMANHO: M,4,0
+mopar.txt,[MOPAR - 18],MOPAR,18,Entidade: Ingestão Staging Claims e Erros SG - TAMANHO: P,2,0
+mopar.txt,[MOPAR - 19],MOPAR,19,Entidade: Ingestão Staging User Parameters Flow API - TAMANHO: G,8,0
+mopar.txt,[MOPAR - 20],MOPAR,20,"Entidade: Ingestão Staging IRPV, Red Dealers e Devoluções - TAMANHO: M",6,0
+mopar.txt,[MOPAR - 21],MOPAR,21,Entidade: Ingestão Staging Carga Fria e RAM - TAMANHO: P,2,0
+mopar.txt,[MOPAR - 22],MOPAR,22,Entidade: SG Liquidadas Principal e Itens - TAMANHO: G,6,4
+mopar.txt,[MOPAR - 23],MOPAR,23,"Entidade: SG Liquidadas Operações, Desenhos e Cubo - TAMANHO: G",4,3
+mopar.txt,[MOPAR - 24],MOPAR,24,Entidade: Claims GCS - TAMANHO: P,1,1
+mopar.txt,[MOPAR - 25],MOPAR,25,Entidade: Erros SG - TAMANHO: P,1,1
+mopar.txt,[MOPAR - 26],MOPAR,26,"Entidade: User Parameters Tipos, Anomalias, Estorno, Budget - TAMANHO: G",4,4
+mopar.txt,[MOPAR - 27],MOPAR,27,"Entidade: User Parameters Grupos, Local, Operações, Tesis - TAMANHO: M",4,0
+mopar.txt,[MOPAR - 28],MOPAR,28,Entidade: Garantia Revisões DataStage - TAMANHO: P,1,1
+mopar.txt,[MOPAR - 29],MOPAR,29,Entidade: IRPV MySQL - TAMANHO: M,3,3
+mopar.txt,[MOPAR - 30],MOPAR,30,Entidade: IRPV2 Consolidação - TAMANHO: P,1,1
+mopar.txt,[MOPAR - 31],MOPAR,31,Entidade: Red Dealers - TAMANHO: M,2,2
+mopar.txt,[MOPAR - 32],MOPAR,32,Assunto: Click - Parte 1 - TAMANHO: G,8,2
+mopar.txt,[MOPAR - 33],MOPAR,33,Assunto: Click - Parte 2 - TAMANHO: G,8,2
+mopar.txt,[MOPAR - 34],MOPAR,34,Assunto: Click - Parte 3 - TAMANHO: G,6,4
+mopar.txt,[MOPAR - 35],MOPAR,35,Assunto: Click - Parte 4 - TAMANHO: G,6,2
+mopar.txt,[MOPAR - 36],MOPAR,36,Assunto: Click - Parte 5 - TAMANHO: G,4,4
+mopar.txt,[MOPAR - 37],MOPAR,37,Assunto: Click - Parte 6 - TAMANHO: G,6,3
+mopar.txt,[MOPAR - 38],MOPAR,38,Assunto: Click - Parte 7 - TAMANHO: M,4,2
+mopar.txt,[MOPAR - 39],MOPAR,39,Assunto: Click - Parte 8 - TAMANHO: P,2,1
+rh.txt,[RH - 1],RH,1,Entidade: Vetorh - Estruturas Organizacionais Parte 1 - TAMANHO: G,10,0
+rh.txt,[RH - 2],RH,2,Entidade: Vetorh - Cargos e Vínculos - TAMANHO: G,10,0
+rh.txt,[RH - 3],RH,3,Entidade: Vetorh - Dados de Colaboradores Parte 1 - TAMANHO: G,10,0
+rh.txt,[RH - 4],RH,4,Entidade: Vetorh - View PCD - TAMANHO: P,0,1
+rh.txt,[RH - 5],RH,5,Entidade: Vetorh - Históricos de Movimentação - TAMANHO: G,10,0
+rh.txt,[RH - 6],RH,6,Entidade: Vetorh - Ponto e Jornada Parte 1 - TAMANHO: G,10,0
+rh.txt,[RH - 7],RH,7,Entidade: Vetorh - Ponto e Jornada Parte 2 - TAMANHO: P,2,0
+rh.txt,[RH - 8],RH,8,Entidade: Vetorh - Saúde e Segurança Parte 1 - TAMANHO: G,10,0
+rh.txt,[RH - 9],RH,9,Entidade: Vetorh - Saúde e Segurança Parte 2 + View Marcações - TAMANHO: P,1,1
+rh.txt,[RH - 10],RH,10,Entidade: Vetorh - Saúde e Segurança Parte 3 + Views Acidentes - TAMANHO: G,8,2
+rh.txt,[RH - 11],RH,11,Entidade: Vetorh - Medicina do Trabalho Parte 1 - TAMANHO: G,9,0
+rh.txt,[RH - 12],RH,12,Entidade:  Vetorh - Views Absenteísmo e Medicina - TAMANHO: P,0,3
+rh.txt,[RH - 13],RH,13,Entidade: Vetorh - Treinamento - TAMANHO: G,8,0
+rh.txt,[RH - 14],RH,14,Entidade: Vetorh - Views Medicina Analytics - TAMANHO: P,0,2
+rh.txt,[RH - 15],RH,15,Entidade: Vetorh - Riscos Ambientais - TAMANHO: G,9,0
+rh.txt,[RH - 16],RH,16,Entidade: Vetorh - Tabelas Usuário Parte 1 - TAMANHO: G,7,1
+rh.txt,[RH - 17],RH,17,Entidade: Vetorh - Tabelas Usuário Parte 2 + Views Manufacturing - TAMANHO: G,3,4
+rh.txt,[RH - 18],RH,18,Entidade: Vetorh - Tabelas Usuário Parte 3 - TAMANHO: G,7,0
+rh.txt,[RH - 19],RH,19,Entidade: Vetorh - Tabelas Usuário Parte 4 + Views HRBP - TAMANHO: G,7,3
+rh.txt,[RH - 20],RH,20,Entidade: Vetorh - Tabelas Usuário Parte 5 + Views Qualidade - TAMANHO: M,5,1
+rh.txt,[RH - 21],RH,21,Entidade: Vetorh - Tabelas Usuário Finais + Views Cross Parte 1 - TAMANHO: G,8,2
+rh.txt,[RH - 22],RH,22,Entidade: Vetorh - Views Cross Parte 2 (Dependem de H18-21) - TAMANHO: G,0,10
+rh.txt,[RH - 23],RH,23,Entidade: Vetorh - Views People Analytics - TAMANHO: M,0,6
+rh.txt,[RH - 24],RH,24,Entidade: Vetorh - Views Medicina e Saúde - TAMANHO: G,0,7
+rh.txt,[RH - 25],RH,25,Entidade: Vetorh - Views Segurança e Facilities - TAMANHO: M,0,5
+rh.txt,[RH - 26],RH,26,Entidade: Vetorh - Views Manufacturing - TAMANHO: G,0,8
+rh.txt,[RH - 27],RH,27,Entidade: Vetorh - Views Qualidade e Compliance - TAMANHO: G,0,8
+rh.txt,[RH - 28],RH,28,Entidade: Vetorh - Views NEA e Teletrabalho - TAMANHO: M,0,5
+rh.txt,[RH - 29],RH,29,Entidade: Vetorh - Views Cross-FSE Rubi e SOI (Final) - TAMANHO: G,0,7
+rh.txt,[RH - 30],RH,30,Entidade: Vetorh - Views Talent Acquisition - TAMANHO: G,0,9
+rh.txt,[RH - 31],RH,31,Entidade: Vetorh R066sit Online - TAMANHO: P,1,0
+rh.txt,[RH - 32],RH,32,Entidade: Vetorh R070acc Online - TAMANHO: P,1,0
+rh.txt,[RH - 33],RH,33,Entidade: Vetorh R086cat Online - TAMANHO: P,1,0
+rh.txt,[RH - 34],RH,34,Entidade: Vetorh R066apu (Sequences) - TAMANHO: P,1,0
+rh.txt,[RH - 35],RH,35,Entidade: Vetorh R066sit (Sequences) - TAMANHO: P,1,0
+rh.txt,[RH - 36],RH,36,Entidade: ELAW Processos - TAMANHO: M,2,2
+rh.txt,[RH - 37],RH,37,Entidade: ELAW Bloqueio - TAMANHO: P,2,0
+rh.txt,[RH - 38],RH,38,Entidade: ELAW Acordo - TAMANHO: M,2,2
+rh.txt,[RH - 39],RH,39,Entidade: ELAW Andamento - TAMANHO: P,2,0
+rh.txt,[RH - 40],RH,40,Entidade: ELAW Audiência - TAMANHO: M,2,2
+rh.txt,[RH - 41],RH,41,Entidade: ELAW Centro de Custo - TAMANHO: M,2,2
+rh.txt,[RH - 42],RH,42,Entidade: ELAW Decisão - TAMANHO: M,2,2
+rh.txt,[RH - 43],RH,43,Entidade: ELAW Garantia - TAMANHO: M,2,2
+rh.txt,[RH - 44],RH,44,Entidade: ELAW Levantamento - TAMANHO: P,2,0
+rh.txt,[RH - 45],RH,45,Entidade: ELAW OBF - TAMANHO: P,2,0
+rh.txt,[RH - 46],RH,46,Entidade: ELAW Pagamento - TAMANHO: P,2,0
+rh.txt,[RH - 47],RH,47,Entidade: ELAW Pauta - TAMANHO: P,2,0
+rh.txt,[RH - 48],RH,48,Entidade: ELAW Perícia - TAMANHO: M,2,2
+rh.txt,[RH - 49],RH,49,Entidade: ELAW Recebimento - TAMANHO: P,2,0
+rh.txt,[RH - 50],RH,50,Entidade: ELAW Recurso - TAMANHO: P,2,0
+rh.txt,[RH - 51],RH,51,Entidade: ELAW Reserva - TAMANHO: P,2,0
+rh.txt,[RH - 52],RH,52,Entidade: ELAW Tutela - TAMANHO: P,2,0
+rh.txt,[RH - 53],RH,53,Entidade: ELAW Valores Pedidos - TAMANHO: G,2,6
+rh.txt,[RH - 54],RH,54,Entidade: ELAW Valores Totais - TAMANHO: P,2,0
+rh.txt,[RH - 55],RH,55,Entidade: Espaider - TAMANHO: G,4,3
+rh.txt,[RH - 56],RH,56,Entidade: Elaw - Índice de Judicialização (Analytics Cross-Domain) - TAMANHO: P,0,3
+rh.txt,[RH - 57],RH,57,Entidade: iTransport Itinerary Performance - TAMANHO: P,2,0
+rh.txt,[RH - 58],RH,58,Entidade: iTransport Unit Arrival - TAMANHO: P,2,0
+rh.txt,[RH - 59],RH,59,Entidade: iTransport Arrival To Garage - TAMANHO: P,2,0
+rh.txt,[RH - 60],RH,60,Entidade: iTransport Punctuality Vehicle - TAMANHO: P,2,0
+rh.txt,[RH - 61],RH,61,Entidade: iTransport User Presence - TAMANHO: P,2,0
+rh.txt,[RH - 62],RH,62,Entidade: Absenteismo - TAMANHO: G,1,8
+rh.txt,[RH - 63],RH,63,Entidade: Org Design Lider Substituto - TAMANHO: P,2,1
+rh.txt,[RH - 64],RH,64,Entidade: People Analytics Restricted R048 - TAMANHO: P,2,0
+rh.txt,[RH - 65],RH,65,Entidade: Learning - Carga desconhecida - TAMANHO: P,2,0
+rh.txt,[RH - 66],RH,66,Entidade: Learning Completed Training (Ano Corrente) - TAMANHO: P,2,2
+rh.txt,[RH - 67],RH,67,Entidade: People_Analytics_Restricted - Carga desconhecida - TAMANHO: G,3,0
+rh.txt,[RH - 68],RH,68,Entidade: People_Analytics - Diversity - TAMANHO: P,4,0
+rh.txt,[RH - 69],RH,69,Entidade: Talent_Acquisition - Lote 1 - TAMANHO: P,2,0
+rh.txt,[RH - 70],RH,70,Entidade: External Tables - Lote 1 - TAMANHO: G,4,4
+rh.txt,[RH - 71],RH,71,Entidade: External Tables - Lote 2 - TAMANHO: G,6,3
+rh.txt,[RH - 72],RH,72,Entidade: External Tables - Lote 3 - TAMANHO: P,1,2
+supplychain.txt,[SUPPLY CHAIN - 1],SUPPLY CHAIN,1,Entidade: Movimentos FAASA - Plantas 6.21 e 6.22 - TAMANHO: M,2,4
+supplychain.txt,[SUPPLY CHAIN - 2],SUPPLY CHAIN,2,"Entidade: Movimentos Contábeis - Parte 1: Plantas FAASA, CKD e FIASA - TAMANHO: P",1,0
+supplychain.txt,[SUPPLY CHAIN - 3],SUPPLY CHAIN,3,"Entidade: Movimentos Contábeis - Parte 2: Plantas FIRE, JEEP e Mecânica - TAMANHO: M",1,2
+supplychain.txt,[SUPPLY CHAIN - 4],SUPPLY CHAIN,4,"Entidade: Posições de Estoque - Parte 1: Plantas JEEP, FAASA e FIASA - TAMANHO: P",1,0
+supplychain.txt,[SUPPLY CHAIN - 5],SUPPLY CHAIN,5,Entidade: Posições de Estoque - Parte 2: Plantas FIRE e Mecânica - TAMANHO: M,1,2
+supplychain.txt,[SUPPLY CHAIN - 6],SUPPLY CHAIN,6,Entidade: Cadastros e Pedidos Especiais - TAMANHO: M,3,6
+supplychain.txt,[SUPPLY CHAIN - 7],SUPPLY CHAIN,7,Entidade: Notas Fiscais de Entrada - TAMANHO: M,3,2
+supplychain.txt,[SUPPLY CHAIN - 8],SUPPLY CHAIN,8,Entidade: Tabelas Mestres - Áreas e Localizações - TAMANHO: M,4,6
+supplychain.txt,[SUPPLY CHAIN - 9],SUPPLY CHAIN,9,Entidade: Views Dimensão - Compartimentos e Unidades - TAMANHO: M,0,4
+supplychain.txt,[SUPPLY CHAIN - 10],SUPPLY CHAIN,10,"Entidade: Etiquetas CIM - Parte 1: Plantas FIAPE, FIASA e Mecânica - TAMANHO: P",1,0
+supplychain.txt,[SUPPLY CHAIN - 11],SUPPLY CHAIN,11,Entidade: Etiquetas CIM - Parte 2: Plantas FIRE e FAASA - TAMANHO: P,1,2
+supplychain.txt,[SUPPLY CHAIN - 12],SUPPLY CHAIN,12,Entidade: Estoque por Desenho - Parte 1: FIASA Histórico e Current - TAMANHO: M,2,0
+supplychain.txt,[SUPPLY CHAIN - 13],SUPPLY CHAIN,13,Entidade: Estoque por Desenho - Parte 2: FIAPE Histórico e Current - TAMANHO: M,2,0
+supplychain.txt,[SUPPLY CHAIN - 14],SUPPLY CHAIN,14,Entidade: Estoque por Desenho - Parte 3: FAASA Histórico e Current - TAMANHO: M,2,0
+supplychain.txt,[SUPPLY CHAIN - 15],SUPPLY CHAIN,15,Entidade: Estoque por Desenho - Parte 4: FIRE e Mecânica - TAMANHO: M,2,0
+supplychain.txt,[SUPPLY CHAIN - 16],SUPPLY CHAIN,16,Entidade: Tabelas Auxiliares e Views Complementares - TAMANHO: G,4,5
+supplychain.txt,[SUPPLY CHAIN - 17],SUPPLY CHAIN,17,Entidade: Rotas e Destinos Logísticos - TAMANHO: G,6,4
+supplychain.txt,[SUPPLY CHAIN - 18],SUPPLY CHAIN,18,Entidade: Pedidos Logísticos e Itens - TAMANHO: G,6,4
+supplychain.txt,[SUPPLY CHAIN - 19],SUPPLY CHAIN,19,Entidade: Inventário - Cabeçalho e Lotes - TAMANHO: G,4,4
+supplychain.txt,[SUPPLY CHAIN - 20],SUPPLY CHAIN,20,Entidade: Inventário - Itens e Leituras - TAMANHO: G,4,4
+supplychain.txt,[SUPPLY CHAIN - 21],SUPPLY CHAIN,21,Entidade: Recebimento e Transmissões - TAMANHO: G,4,4
+supplychain.txt,[SUPPLY CHAIN - 22],SUPPLY CHAIN,22,Entidade: Conferência Física e MDR Part Number - TAMANHO: G,4,4
+supplychain.txt,[SUPPLY CHAIN - 23],SUPPLY CHAIN,23,Entidade: Volumes de Expedição - TAMANHO: M,2,2
+supplychain.txt,[SUPPLY CHAIN - 24],SUPPLY CHAIN,24,Entidade: QRCode e Repicking - TAMANHO: G,4,4
+supplychain.txt,[SUPPLY CHAIN - 25],SUPPLY CHAIN,25,Entidade: Troca de Locação - TAMANHO: G,4,4
+supplychain.txt,[SUPPLY CHAIN - 26],SUPPLY CHAIN,26,Entidade: Estado dos Conjuntos (SSOLQ051) - TAMANHO: P,1,2
+supplychain.txt,[SUPPLY CHAIN - 27],SUPPLY CHAIN,27,"Entidade: Cadastros Eventuais e Anagrafica (SSOLQ057, SSOLQ060, SSDCE001) - TAMANHO: G",3,6
+supplychain.txt,[SUPPLY CHAIN - 28],SUPPLY CHAIN,28,Entidade: Cadastro de Desenhos por Estabelecimento (SSOLQ068) - TAMANHO: M,1,3
+supplychain.txt,[SUPPLY CHAIN - 29],SUPPLY CHAIN,29,"Entidade: Ordens e Características por Trecho (SSOLQ072, SSOLQ073, SSOLQ077) - TAMANHO: G",3,6
+supplychain.txt,[SUPPLY CHAIN - 30],SUPPLY CHAIN,30,Entidade: Giro Diário de Consumo de Peças (SSOLQ110) - TAMANHO: M,1,2
+supplychain.txt,[SUPPLY CHAIN - 31],SUPPLY CHAIN,31,Entidade: Giro Mensal de Consumo de Peças (SSOLQ130) - TAMANHO: G,1,2
+supplychain.txt,[SUPPLY CHAIN - 32],SUPPLY CHAIN,32,Entidade: Consumos S-1 e Necessidades Brutas (SSOLQ134) - TAMANHO: P,1,2
+supplychain.txt,[SUPPLY CHAIN - 33],SUPPLY CHAIN,33,"Entidade: Produtos Acabados e Desenhos - Carga Diária (SSOLQ144, SSOLQ145) - TAMANHO: G",4,4
+supplychain.txt,[SUPPLY CHAIN - 34],SUPPLY CHAIN,34,"Entidade: Produtos Acabados e Desenhos - Carga Mensal (SSOLQ146, SSOLQ147) - TAMANHO: G",4,4
+supplychain.txt,[SUPPLY CHAIN - 35],SUPPLY CHAIN,35,Entidade: Desenhos Calculados por Seção (SSOLQ150) - TAMANHO: P,1,2
+supplychain.txt,[SUPPLY CHAIN - 36],SUPPLY CHAIN,36,"Entidade: Data Mestre e Números de Peça (SSOLQ500, SSOLQ501) - TAMANHO: G",4,6
+supplychain.txt,[SUPPLY CHAIN - 37],SUPPLY CHAIN,37,Entidade: Dimensões Básicas de Estoque - TAMANHO: P,3,0
+supplychain.txt,[SUPPLY CHAIN - 38],SUPPLY CHAIN,38,Entidade: Indicadores e Causal - TAMANHO: P,2,0
+supplychain.txt,[SUPPLY CHAIN - 39],SUPPLY CHAIN,39,Entidade: Staging - Dados Brutos SAP e IMS - TAMANHO: M,2,2
+supplychain.txt,[SUPPLY CHAIN - 40],SUPPLY CHAIN,40,Entidade: Estoque Material e Saldo SAP - TAMANHO: M,2,4
+supplychain.txt,[SUPPLY CHAIN - 41],SUPPLY CHAIN,41,Entidade: Apontamentos e Material em Trânsito - TAMANHO: M,2,4
+supplychain.txt,[SUPPLY CHAIN - 42],SUPPLY CHAIN,42,Entidade: Estoque Viajante e Views Consolidadas - TAMANHO: P,1,2
+supplychain.txt,[SUPPLY CHAIN - 43],SUPPLY CHAIN,43,"Entidade: Cadastros Base - Incoterms, Meios de Transporte e Saturação - TAMANHO: P",3,0
+supplychain.txt,[SUPPLY CHAIN - 44],SUPPLY CHAIN,44,Entidade: Transporte e Frete - Staging e Consolidação - TAMANHO: M,2,3
+supplychain.txt,[SUPPLY CHAIN - 45],SUPPLY CHAIN,45,Entidade: Estoque de Embalagens Retornáveis - TAMANHO: P,1,1
+supplychain.txt,[SUPPLY CHAIN - 46],SUPPLY CHAIN,46,Entidade: Itens de Nota Fiscal e Movimentação - TAMANHO: M,1,4
+supplychain.txt,[SUPPLY CHAIN - 47],SUPPLY CHAIN,47,Entidade: Ingestão TM1 - Tabelas Auxiliares e Produto - TAMANHO: M,4,0
+supplychain.txt,[SUPPLY CHAIN - 48],SUPPLY CHAIN,48,Entidade: Ingestão RTM e LTP - Event-Driven - TAMANHO: M,2,4
+supplychain.txt,[SUPPLY CHAIN - 49],SUPPLY CHAIN,49,Entidade: Ingestão Part Dump A9 - Orchestrated DataStage - TAMANHO: M,2,2
+supplychain.txt,[SUPPLY CHAIN - 50],SUPPLY CHAIN,50,Entidade: Ingestão Flow - Parte 1 (Cálculo Previsional e CBA) - TAMANHO: G,4,4
+supplychain.txt,[SUPPLY CHAIN - 51],SUPPLY CHAIN,51,Entidade: Ingestão Flow - Parte 2 (CBH e Months Rolling) - TAMANHO: G,4,4
+supplychain.txt,[SUPPLY CHAIN - 52],SUPPLY CHAIN,52,Entidade: Ingestão Flow - Parte 3 (Cadastros Auxiliares e Logistics) - TAMANHO: M,4,0
+supplychain.txt,[SUPPLY CHAIN - 53],SUPPLY CHAIN,53,Entidade: Views Consolidadas e Analíticas Avançadas - TAMANHO: P,0,3
+supplychain.txt,[SUPPLY CHAIN - 54],SUPPLY CHAIN,54,Entidade: Ativação de Transporte DHL - TAMANHO: M,2,2
+supplychain.txt,[SUPPLY CHAIN - 55],SUPPLY CHAIN,55,Entidade: Ativação e Aprovação AVA SPOT - TAMANHO: M,2,2
+supplychain.txt,[SUPPLY CHAIN - 56],SUPPLY CHAIN,56,Entidade: Yard Truck - Movimentação de Veículos - TAMANHO: P,1,1
+supplychain.txt,[SUPPLY CHAIN - 57],SUPPLY CHAIN,57,Entidade: Rastreamento Real-Time via Pub/Sub - TAMANHO: M,2,4
+supplychain.txt,[SUPPLY CHAIN - 58],SUPPLY CHAIN,58,Entidade: Outbound Transporte Batch via DataStage - TAMANHO: P,1,2
+supplychain.txt,[SUPPLY CHAIN - 59],SUPPLY CHAIN,59,Entidade: Processamento Delta Chegadas e Views Especializadas - TAMANHO: M,1,3
+supplychain.txt,[SUPPLY CHAIN - 60],SUPPLY CHAIN,60,Entidade: Carga Base RapidResponse - Hierarquias e Descrições - TAMANHO: G,10,0
+supplychain.txt,[SUPPLY CHAIN - 61],SUPPLY CHAIN,61,Entidade: Cadastros de Canais e Subcanais - TAMANHO: M,4,0
+supplychain.txt,[SUPPLY CHAIN - 62],SUPPLY CHAIN,62,"Entidade: Planejamento Operacional - Parte 1 (OSS, PSA, Confirmado) - TAMANHO: G",6,3
+supplychain.txt,[SUPPLY CHAIN - 63],SUPPLY CHAIN,63,Entidade: Planejamento Operacional - Parte 2 (Geral e Volume Indústria) - TAMANHO: M,4,2
+supplychain.txt,[SUPPLY CHAIN - 64],SUPPLY CHAIN,64,Entidade: Planejamento Assegnazione e Emplacamento - TAMANHO: M,4,2
+supplychain.txt,[SUPPLY CHAIN - 65],SUPPLY CHAIN,65,Entidade: Lista Mestre Pokey e Produto A13 - TAMANHO: M,4,2
+supplychain.txt,[SUPPLY CHAIN - 66],SUPPLY CHAIN,66,Entidade: Dados Atuais e Emissão CO2 - Export Files - TAMANHO: M,0,4
+supplychain.txt,[SUPPLY CHAIN - 67],SUPPLY CHAIN,67,Entidade: Comprovação Eletrônica de Entrega - EPOD Completo - TAMANHO: G,6,3
+supplychain.txt,[SUPPLY CHAIN - 68],SUPPLY CHAIN,68,Entidade: Ingestão de Dados Base - Volume Accuracy - TAMANHO: M,4,4
+supplychain.txt,[SUPPLY CHAIN - 69],SUPPLY CHAIN,69,Entidade: Processamento Final - Cálculo de Mix e Volume Accuracy - TAMANHO: P,1,1
+supplychain.txt,[SUPPLY CHAIN - 70],SUPPLY CHAIN,70,Entidade: External Tables Google Sheets - Mapeamentos De-Para Parte 1 - TAMANHO: G,,0
+supplychain.txt,[SUPPLY CHAIN - 71],SUPPLY CHAIN,71,Entidade: External Tables Google Sheets - Histórico e Volumes Globais - TAMANHO: G,,0
+supplychain.txt,[SUPPLY CHAIN - 72],SUPPLY CHAIN,72,Entidade: Carga Física De-Para e Mapeamentos - TAMANHO: M,5,0
+supplychain.txt,[SUPPLY CHAIN - 73],SUPPLY CHAIN,73,Entidade: Carga Física Delivery EMEA e NAFTA - TAMANHO: M,4,0
+supplychain.txt,[SUPPLY CHAIN - 74],SUPPLY CHAIN,74,"Entidade: Carga Física Stocks - Dealer, OEM e Viajantes - TAMANHO: M",5,0
+supplychain.txt,[SUPPLY CHAIN - 75],SUPPLY CHAIN,75,Entidade: Carga Física Retail e Volume Argentina - TAMANHO: P,3,0
+supplychain.txt,[SUPPLY CHAIN - 76],SUPPLY CHAIN,76,Entidade: Carga Física Wholesales e Planejamento - TAMANHO: M,5,0
+supplychain.txt,[SUPPLY CHAIN - 77],SUPPLY CHAIN,77,Entidade: Consolidação Principal - tb_actual e View Base - TAMANHO: P,1,1
+supplychain.txt,[SUPPLY CHAIN - 78],SUPPLY CHAIN,78,Entidade: Wholesales NAFTA ROL - Carga Delta e Views - TAMANHO: P,1,2
+supplychain.txt,[SUPPLY CHAIN - 79],SUPPLY CHAIN,79,Entidade: Views Planejamento - Budget Forecast e Estimativas - TAMANHO: M,,4
+supplychain.txt,[SUPPLY CHAIN - 80],SUPPLY CHAIN,80,Entidade: Views NAFTA - Dimensões Veículos e Produtos - TAMANHO: M,0,4
+supplychain.txt,[SUPPLY CHAIN - 81],SUPPLY CHAIN,81,Entidade: Stock History Regional - TAMANHO: M,5,0
+supplychain.txt,[SUPPLY CHAIN - 82],SUPPLY CHAIN,82,Entidade: Eventos e Pedidos Comerciais - TAMANHO: P,2,0
+supplychain.txt,[SUPPLY CHAIN - 83],SUPPLY CHAIN,83,Entidade: Indicadores FCO - TAMANHO: M,4,0
+supplychain.txt,[SUPPLY CHAIN - 84],SUPPLY CHAIN,84,Entidade: Estoque OEM e Dealer - TAMANHO: G,7,0
+supplychain.txt,[SUPPLY CHAIN - 85],SUPPLY CHAIN,85,Entidade: KPIs de Vendas e Produção - TAMANHO: M,4,0

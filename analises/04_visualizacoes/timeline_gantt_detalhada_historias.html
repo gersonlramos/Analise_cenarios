@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Timeline Dinâmica</title>
+    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background: #f6f6f8; }
+        .topbar { display:flex; gap:12px; align-items:flex-start; padding:10px 14px; }
+        .card { background:#fff; border:1px solid #bdbdbd; border-radius:4px; padding:8px 10px; }
+        #cenario { min-width: 220px; font-size: 14px; }
+        #datas { font-size: 13px; line-height: 1.45; color:#222; }
+        #chart { width: 100%; height: calc(100vh - 76px); }
+        #erro { color:#b00020; padding:8px 14px; display:none; }
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <div class="card">
+            <label for="cenario"><b>Cenário</b></label><br />
+            <select id="cenario"></select>
+        </div>
+        <div class="card" id="datas"></div>
+    </div>
+    <div id="erro"></div>
+    <div id="chart"></div>
+
+    <script>
+        const dataUrl = "timeline_gantt_detalhada_historias.json";
+        const select = document.getElementById("cenario");
+        const datas = document.getElementById("datas");
+        const erro = document.getElementById("erro");
+        const chart = document.getElementById("chart");
+
+        function montarLayout(payload, cenario) {
+            return {
+                title: { text: payload.titulo, x: 0.12, xanchor: "left", font: { size: 16, color: "#333" } },
+                xaxis: {
+                    title: "Data",
+                    type: "date",
+                    tickformat: "%d/%m/%Y",
+                    showgrid: true,
+                    gridwidth: 1,
+                    gridcolor: "rgba(180, 180, 180, 0.25)",
+                    range: [payload.x_range_min, payload.x_range_max],
+                    side: "top"
+                },
+                yaxis: {
+                    title: "Lake / História",
+                    autorange: "reversed",
+                    showgrid: false,
+                    tickfont: { size: 10 },
+                    automargin: true,
+                    categoryorder: "array",
+                    categoryarray: cenario.y_labels
+                },
+                barmode: "overlay",
+                hovermode: "closest",
+                height: cenario.height,
+                legend: {
+                    title: { text: "Squad" },
+                    x: 0.99,
+                    y: 0.99,
+                    xanchor: "right",
+                    yanchor: "top",
+                    bgcolor: "rgba(255,255,255,0.95)",
+                    bordercolor: "rgba(0,0,0,0.3)",
+                    borderwidth: 1,
+                    font: { size: 11 }
+                },
+                margin: { l: 280, r: 30, t: 70, b: 50 },
+                plot_bgcolor: "rgba(245,245,245,1)",
+                paper_bgcolor: "white",
+                font: { family: "Arial, sans-serif", size: 11 }
+            };
+        }
+
+        function atualizarDatas(cenario) {
+            datas.innerHTML = `<b>Início projeto:</b> ${cenario.inicio_projeto}<br/><b>Fim projeto:</b> ${cenario.fim_projeto}`;
+        }
+
+        async function init() {
+            try {
+                const resp = await fetch(dataUrl);
+                if (!resp.ok) throw new Error(`Falha ao buscar JSON (${resp.status})`);
+                const payload = await resp.json();
+
+                payload.cenarios.forEach((c, idx) => {
+                    const opt = document.createElement("option");
+                    opt.value = String(idx);
+                    opt.textContent = c.nome;
+                    select.appendChild(opt);
+                });
+
+                function render(idx) {
+                    const cenario = payload.cenarios[idx];
+                    atualizarDatas(cenario);
+                    Plotly.react(chart, cenario.traces, montarLayout(payload, cenario), { responsive: true, displaylogo: false });
+                }
+
+                select.addEventListener("change", () => render(Number(select.value)));
+                render(0);
+            } catch (e) {
+                erro.style.display = "block";
+                erro.innerHTML = `Não foi possível carregar os dados dinâmicos. Rode em servidor local. Erro: ${e.message}`;
+            }
+        }
+
+        init();
+    </script>
+</body>
+</html>

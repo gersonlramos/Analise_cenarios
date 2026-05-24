@@ -1,0 +1,9 @@
+lake,engenheiros,analistas,historias,data_inicio,data_fim,total_engenheiro_dias,total_analista_dias,prazo_engenharia_dias_uteis,prazo_analise_dias_uteis,prazo_total_dias_uteis,prazo_total_dias_corridos
+COMERCIAL,8,2,97,09/03/2026,11/08/2026,448.0,215.0,59.0,112.0,112.0,156
+SUPPLY CHAIN,8,2,85,09/03/2026,17/07/2026,281.0,189.0,38.0,95.0,95.0,131
+RH,8,2,72,09/03/2026,10/06/2026,221.0,135.0,31.0,68.0,68.0,94
+CLIENTE,8,2,42,09/03/2026,07/05/2026,223.0,83.0,32.0,44.0,44.0,60
+FINANCE,8,2,51,09/03/2026,07/05/2026,229.0,86.0,33.0,44.0,44.0,60
+MOPAR,8,2,39,09/03/2026,01/05/2026,177.0,79.0,24.0,40.0,40.0,54
+COMPRAS,8,2,13,09/03/2026,17/04/2026,42.0,59.0,11.0,30.0,30.0,40
+BMC,1,1,1,09/03/2026,26/03/2026,14.0,7.0,14.0,7.0,14.0,18

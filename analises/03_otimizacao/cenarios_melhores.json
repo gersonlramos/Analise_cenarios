@@ -1,0 +1,226 @@
+{
+  "base_5_squads": {
+    "fim_projeto": "19/11/2026",
+    "prazo_dias_corridos": 256,
+    "config": {
+      "BMC": [
+        "Squad 1"
+      ],
+      "COMPRAS": [
+        "Squad 1"
+      ],
+      "MOPAR": [
+        "Squad 2"
+      ],
+      "CLIENTE": [
+        "Squad 3"
+      ],
+      "SHARED SERVICES": [
+        "Squad 1",
+        "Squad 4"
+      ],
+      "RH": [
+        "Squad 2"
+      ],
+      "FINANCE": [
+        "Squad 3"
+      ],
+      "SUPPLY CHAIN": [
+        "Squad 5"
+      ],
+      "COMERCIAL": [
+        "Squad 1",
+        "Squad 4"
+      ]
+    }
+  },
+  "referencia_8_squads": {
+    "fim_projeto": "03/09/2026",
+    "prazo_dias_corridos": 179,
+    "config": {
+      "BMC": [
+        "Squad 1"
+      ],
+      "COMPRAS": [
+        "Squad 1"
+      ],
+      "MOPAR": [
+        "Squad 2"
+      ],
+      "CLIENTE": [
+        "Squad 3"
+      ],
+      "SHARED SERVICES": [
+        "Squad 1",
+        "Squad 4"
+      ],
+      "RH": [
+        "Squad 5"
+      ],
+      "FINANCE": [
+        "Squad 6"
+      ],
+      "SUPPLY CHAIN": [
+        "Squad 7"
+      ],
+      "COMERCIAL": [
+        "Squad 1",
+        "Squad 8"
+      ]
+    }
+  },
+  "melhor_5_squads": {
+    "fim_projeto": "05/10/2026",
+    "prazo_dias_corridos": 211,
+    "RH": "Squad 2",
+    "FINANCE": "Squad 5",
+    "SUPPLY_CHAIN": "Squad 3",
+    "COMERCIAL_2": "Squad 5",
+    "config": {
+      "BMC": [
+        "Squad 1"
+      ],
+      "COMPRAS": [
+        "Squad 1"
+      ],
+      "MOPAR": [
+        "Squad 2"
+      ],
+      "CLIENTE": [
+        "Squad 3"
+      ],
+      "SHARED SERVICES": [
+        "Squad 1",
+        "Squad 4"
+      ],
+      "RH": [
+        "Squad 2"
+      ],
+      "FINANCE": [
+        "Squad 5"
+      ],
+      "SUPPLY CHAIN": [
+        "Squad 3"
+      ],
+      "COMERCIAL": [
+        "Squad 1",
+        "Squad 5"
+      ]
+    }
+  },
+  "melhor_8_squads": {
+    "fim_projeto": "03/09/2026",
+    "prazo_dias_corridos": 179,
+    "RH": "Squad 5",
+    "FINANCE": "Squad 6",
+    "SUPPLY_CHAIN": "Squad 7",
+    "COMERCIAL_2": "Squad 8",
+    "config": {
+      "BMC": [
+        "Squad 1"
+      ],
+      "COMPRAS": [
+        "Squad 1"
+      ],
+      "MOPAR": [
+        "Squad 2"
+      ],
+      "CLIENTE": [
+        "Squad 3"
+      ],
+      "SHARED SERVICES": [
+        "Squad 1",
+        "Squad 4"
+      ],
+      "RH": [
+        "Squad 5"
+      ],
+      "FINANCE": [
+        "Squad 6"
+      ],
+      "SUPPLY CHAIN": [
+        "Squad 7"
+      ],
+      "COMERCIAL": [
+        "Squad 1",
+        "Squad 8"
+      ]
+    }
+  },
+  "somente_devs_5_squads": {
+    "fim_projeto": "14/07/2026",
+    "prazo_dias_corridos": 128,
+    "config": {
+      "BMC": [
+        "Squad 1"
+      ],
+      "COMPRAS": [
+        "Squad 1"
+      ],
+      "MOPAR": [
+        "Squad 2"
+      ],
+      "CLIENTE": [
+        "Squad 3"
+      ],
+      "SHARED SERVICES": [
+        "Squad 1",
+        "Squad 4"
+      ],
+      "RH": [
+        "Squad 2"
+      ],
+      "FINANCE": [
+        "Squad 3"
+      ],
+      "SUPPLY CHAIN": [
+        "Squad 5"
+      ],
+      "COMERCIAL": [
+        "Squad 1",
+        "Squad 4"
+      ]
+    }
+  },
+  "devs11_prazo30jun": {
+    "fim_projeto": "06/07/2026",
+    "prazo_dias_corridos": 120,
+    "config": {
+      "BMC": [
+        "Squad 1"
+      ],
+      "COMPRAS": [
+        "Squad 1"
+      ],
+      "MOPAR": [
+        "Squad 2"
+      ],
+      "CLIENTE": [
+        "Squad 3"
+      ],
+      "SHARED SERVICES": [
+        "Squad 1",
+        "Squad 4"
+      ],
+      "RH": [
+        "Squad 2"
+      ],
+      "FINANCE": [
+        "Squad 3"
+      ],
+      "SUPPLY CHAIN": [
+        "Squad 5"
+      ],
+      "COMERCIAL": [
+        "Squad 1",
+        "Squad 4"
+      ]
+    },
+    "devs_por_squad": 11
+  },
+  "observacoes": {
+    "inicio_bmc_compras": "09/03/2026",
+    "inicio_demais_lakes": "01/04/2026",
+    "lakes_sem_dados_no_csv": []
+  }
+}
